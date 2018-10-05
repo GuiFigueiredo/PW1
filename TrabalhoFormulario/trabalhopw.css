@@ -1,0 +1,27 @@
+#informações{
+	background-color:lightGray;
+	font-size: 15px;
+		
+}
+#logo{                       
+	font-size:50px;
+	color:red;
+	font-style:justify;
+	text-align: right;
+	margin-right:90px;
+	
+}
+#logo2{
+	font-size:15px;
+	color:black;
+	font-family:Arial;
+	text-align: right;
+	padding-bottom:35px;
+		
+}
+#divisao{
+	color:lightGray;
+	
+	
+}
+

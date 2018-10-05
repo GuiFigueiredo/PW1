@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf8"/>
+ <title>formulário</title> 
+<link rel="stylesheet" type="text/css" href="trabalhopw.css">
+<script src="trabalhopw.js"></script>
+</head>
+<body>
+<h1 id="logo2" style="float:right">serviço de<br>informações<br> ao cidadão</h1> 
+<h1 id="logo"style="float:top">SIC</h1>
+ <form name="form1" action="enviar">
+ <h4>FORMULÁRIO DE SOLCITAÇO DE INFORMAÇÃO(Pessoa física)</h4> 
+ <div id="divisao">   </div>
+		<p id="informações">As informações abaixo são obrigatórias </p>
+		<fieldset>
+			Nome: <input type="text" name="nome" value="" size="90"></br><br>
+			CPF: <input  type="number"name="CPF" value="" size="90"></br>
+			<p> Ou, se preferir, informar o outro documento de identificação(RG,CNH,Passaporte,RNE ou outro documento válido.se a opção for por RG, indicar órgão emissor e UF) </p>
+			Tipo do documento: <input type="text" name="Tipo do documento" value="" size="45">
+			Nº: <input type="number" name="Nº" value"" size="20"></br>
+			<br>
+			Endereço eletronico(e-mail):<input type="text" name="email" value="" size="70"><br>ou</br>
+		
+			Endereço fisico(Rua,nº,complemento,Bairro): <input type="text" name="endereço" value="" size="55"><br><br>
+			Cidade: <input type="text" name="cidade" value="" size="30">
+			Estado: <input type="text" name="Estado" value="" size="30">
+			UF:<input type="text" name="UF" value="" size="10"></br><br>
+			CEP:<input type="number" name="CEP" value="" size="">
+			Pais:<input type="text" name="pais" value="" size="">
+			</fieldset>
+			<p id="informações">Os campos a seguir são opcionais e se preenchidos contribuirão para a melhoria de nossos serviços</p>
+			<fieldset>
+			Sexo:
+			<input type="radio" name="sexo">Masculino
+			<input type="radio" name="sexo">Feminino
+			Data de nascimento:<input type="date" name="nascimento" size="70"><br>
+			<p>ESCOLARIDADE:</p>
+			<input type="radio"> Sem instruçao formal<input type="radio">Ensino superior<input type="radio">Doutorado<br>
+			<input type="radio"> Ensino  Fundamental<input type="radio">Especialização<br>
+			<input type="radio"> Ensino médio<input type="radio">Mestrado<br>
+			<p> Ocupação principal/Profissão</p>
+			<input type="radio">Empregado - setor privado<input type="radio">Pesquisador<input type="radio">Servidor público estadual<br>
+			<input type="radio">Jornalista<input type="radio">Professor<input type="radio">Servidor público municipal<br>
+		    <input type="radio">Membro de partido político<input type="radio">Estudante<input type="radio">Membro de ONG nacional<br>
+			<input type="radio">Representante de sindidcato<input type="radio">Empresário/empreendedor<input type="radio">Membro de ONG internacional<br>
+			<input type="radio">Profis.Liberal/autônomo<input type="radio">Servidor público federal<br>
+			<input type="radio">Outros<br>
+			Telefone:<input type="number" name="telefone"><br>
+			</fieldset>
+			<p id="informações">Especificação do pedido de acesso á informação </p>
+			<fieldset>
+			<h4>Órgão/Entidade destinatário do pedido:</h4>
+			<h4>Forma preferencial de recebimento de resposta</h4>
+			<input type="radio">Buscar/Consultar pessoalmente<input type="radio">E-mail<input type="radio">Por carta (com custo)<br>
+			<p>Especificação do pedido:</p>
+			<textarea name="mensagem" rows="10" cols="80"></textarea><br><br>
+			<input type="button" name="botão" value="enviar" size="30" onclick="validarcpf();">
+			</fieldset>
+			</form>
+</body>
+</html>

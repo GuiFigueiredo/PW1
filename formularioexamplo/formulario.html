@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>formulário</title>
+<link rel="stylesheet" type="text/css" href="styleform.css">
+<script src="form.js"></script>
+</head>
+<body>
+	<div id"form">
+		<form action="">
+			Nome:<br><input type="text" name="nome" value="" size="35"><br>
+			Sobrenome:<b><input type="text" name"nome" value""size="35"><br>
+			Sexo: <br>
+			Masculino<input type="radio" name="sexo" value="masculino">feminino<input type="radio" name="sexo" value="feminino"><br>
+			Qual o ano do seu nascimento?<br>
+			<input type="button" id="btnCarregar" onclick="ano()" value="Carregar combobox"/>
+			<select name="data_nasc" id="data_nasc">
+			</select><br>
+			Qual a data do seu aniversário?<br>
+			<input type="date" name="data_aniversario"><br>
+			assinale os intesn de maior consumo:<br>
+			<input type="checkbox" name="chocolate" value="chocolate"> chocolate<br>
+			<input type="checkbox" name="refrigerante" value="refrigerante"> refrigerante<br>
+			Digite o se e-mail:<br>
+			<input type="email" name="email" size="35"><br>
+			Digite uma mensagem:<br>
+			<textarea name="mensagem" rows="10" cols="36"></textarea><br><br>
+			<input type="submit" value="Enviar">
+		</form>
+	</div>
+</body>
+</html>
